@@ -11,7 +11,7 @@
     <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <h2>TABLE</h2>
     <table>
-      <caption>Scores by quarter</caption>
+      <caption>Scores by Quarter</caption>
       <tr>
         <th rowspan="2">Team Name</th>
         <th colspan="2">First Half</th>
@@ -25,82 +25,95 @@
         <td>Q4</td>
       </tr>
       <tr>
-        <td>New England</td>
+        <td>Eagles</td>
         <td>7</td>
-        <td>9</td>
-        <td>3</td>
-        <td>3</td>
-        <td>22</td>
+        <td>7</td>
+        <td>7</td>
+        <td>7</td>
+        <td>28</td>
       </tr>
       <tr>
-        <td>Denver</td>
+        <td>Steelers</td>
         <td>0</td>
-        <td>6</td>
-        <td>3</td>
         <td>0</td>
-        <td>9</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
       </tr>
       <tr>
         <th>Total</th>
         <th>7</th>
-        <th>15</th>
-        <th>6</th>
-        <th>3</th>
-        <th>31</th>
+        <th>14</th>
+        <th>21</th>
+        <th>28</th>
+        <th>28</th>
       </tr>
     </table>
     <h2>LIST</h2>
     <ul>
-      <li><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/New_England_Patriots_logo.svg" width="100"><a href="https://www.patriots.com/">New England Patriots</a></li>
+      <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Philadelphia_Eagles_logo.svg" width="100" height="100"/>
+        <li><a href="https://www.philadelphiaeagles.com/">Philadelphia Eagles</a></li>
       <ul>
-        <li>Coach : Bill Belichick</li>
-        <li>QB</li>
+        <li>Coach : Nick Sirianni</li>
+        <li>Quarterbacks</li>
         <ol>
-          <li>Cam Newton</li>
-          <li>Brian Hoyer</li>
-          <li>Jarrett Stidham</li>
+          <li>Jalen Hurts</li>
+          <li>Joe Flacco</li>
+          <li>Gardner Minshew</li>
         </ol>
       </ul>
-      <li><img src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg" width="100"><a href="https://www.denverbroncos.com/">Denver Broncos</a></li>
+      <br/>
+      <br/>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Pittsburgh_Steelers_logo.svg" width="100" height="100"/>
+    <br/>
+    <br/>
+      <li><a href="https://www.steelers.com/">Pitssburgh Steelers</a></li>
       <ul>
-        <li>Coach : Vic Fangio</li>
-        <li>QB</li>
+        <li>Coach : Mike Tomlin</li>
+        <li>Quarterbacks</li>
         <ol>
-          <li>Drew Lock</li>
-          <li>Teddy Bridgewater</li>
-          <li>Brett Rypien</li>
+          <li>Dwayne Haskins</li>
+          <li>Ben Roethlisberger</li>
+          <li>Mason Rudolph</li>
+          <li>Joshua Dobbs</li>
         </ol>
       </ul>
     </ul>
     <h2>FORM</h2>
     <form id="form1">
-      <label for="fname">First: </label>
+      <label for="fname">First Name: </label>
       <input type="text" id="fname">
-      <label for="lname">Last: </label>
+      <label for="lname">Last Name: </label>
       <input type="text" id="lname"><br>
       <label for="sports">Favorite Sport:</label><br>
       <select name="sports" id="sports">
         <option value="Soccer">Soccer</option>
         <option value="Football">Football</option>
-        <option value="Rugby">Rugby</option>
-        <option value="Tennis">Tennis</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Lacrosse">Lacrosse</option>
+        <option value="Field Hockey">Field Hockey</option>
+        <option value="Baseball">Baseball</option>
+        <option value="Crew">Crew</option>
+        <option value="Volleyball">Volleyball</option>
+        <option value="Track and Field">Track and Field</option>
+        <option value="Gymnastics">Gymnastics<option>
       </select><br>
       <label>I have: </label>
       <input type="checkbox" id="attended">
-      <label for="attended">Attended </label>
+      <label for="attended">Attended a Game </label>
       <input type="checkbox" id="played">
-      <label for="played">Played </label>
+      <label for="played">Played in a Game </label>
       <input type="checkbox" id="coached">
-      <label for="coached">Coached </label>
+      <label for="coached">Coached a Team </label>
       <input type="checkbox" id="bet">
-      <label for="bet">Bet on</label><br>
+      <label for="bet">Bet on a Game</label><br>
       <label>For this sport I prefer the: </label>
       <input type="radio" name="prefer" id="amateur">
-      <label for="amateur">Amateur </label>
+      <label for="amateur">Amateur/Recreational Level </label>
       <input type="radio" name="prefer" id="college">
-      <label for="amateur">College </label>
+      <label for="amateur">College Level </label>
       <input type="radio" name="prefer" id="professional">
-      <label for="amateur">Professional </label><br>
+      <label for="amateur">Professional Level </label><br>
       <input type="button" id="submit" form="form1" value="Submit Query">
     </form>
   </body>
